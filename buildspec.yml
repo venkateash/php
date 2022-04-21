@@ -6,6 +6,6 @@ phases:
       python: 3.8
   pre_build:
     commands:
-      - yum install -y nginx
+      - apt install -y nginx
       - service enable nginx
       - service start nginx 
